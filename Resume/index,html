@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Noto+Sans+TC:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e22e8cf78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="nav-title">Daniel's Resume</span>
+            <a href="#" class="nav-link">
+                <i class="fas fa-print"></i>
+            </a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="personal-info">
+            <div class="avatar">
+                <img class="headshot" src="images/headshot.jpg" alt="photo">
+            </div>
+            <h1 class="name">
+                藍柏翰
+            </h1>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/daniel-lan-64459a199/" class="social-media-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto: daniellan891105@gmail.com" class="social-media-link" target="_blank">
+                    <i class="fas fa-envelope-square"></i>
+                </a>
+                <a href="tel: 0977256828" class="social-media-link">
+                    <i class="fas fa-phone-square-alt"></i>
+                </a>
+            </div>
+
+            <div class="title">
+                Taiwan, Taipei
+            </div>
+            <span></span>
+            <p class="description ">
+                <i class="fas fa-school"></i> Information Management, China University of Technology
+            </p>
+        </section>
+        <div class="padding-move-50px">
+            <section class="experience-section">
+                <h2 class="experience">工作經歷</h2>
+                <div class="experience">
+                    <div class="experience-item">
+                        <h3>助理老師</h3>
+                        <span class="company"><i class="far fa-building"></i><a
+                                href="taipei-nz.com.tw">台北紐西蘭學校</a></span>
+                        <span class="duration">
+                            <i class="far fa-calendar-minus"> Taiwan,Taipei___Nov 2021 - Present</i>
+                        </span>
+                        <ul>
+                            <li>
+                                <p>協助教學方面的事務，如試卷的批閱、學生問題回答、指導學生、監考、學生成績的統計紀錄、教材準備等</p>
+                            </li>
+                            <li>
+                                <p>校內生活環境管理、學生學習進度追蹤及輔導近50+位學生</p>
+                            </li>
+                            <li>
+                                <p>兩個月內將學生的期中成績提升 10+以上</p>
+                            </li>
+                            <li>
+                                <p>將學生期末成績提升 10+以上，平均分數均在95+以上。</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="experience-item">
+                        <h3>總務人員</h3>
+                        <span class="company"><i class="far fa-building"></i><a
+                                href="https://www.pwc.tw/">PWC</a></span>
+                        <span class="duration">
+                            <i class="far fa-calendar-minus"> Taiwan,Taipei___Jan 2021 - Nov 2021</i>
+                        </span>
+                        <ul>
+                            <li>
+                                <p>公司內部文件收送</p>
+                            </li>
+                            <li>
+                                <p>外部快遞、掛號、包裹、普通郵件之收發登記作業</p>
+                            </li>
+                            <li>
+                                <p>內部信件資料更新</p>
+                            </li>
+                            <li>
+                                <p>將信件遲到率大幅降低，單趟送件時間減少10+分鐘</p>
+                            </li>
+                            <li>
+                                <p>重新分類收發端內部組別種類，加快信件分類時間</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="experience-item">
+                        <h3>客服人員</h3>
+                        <span class="company"><i class="far fa-building"></i><a href="uuu.com.tw">精誠資訊</a></span>
+                        <span class="duration">
+                            <i class="far fa-calendar-minus"> Taiwan,Taipei___Sep 2020 - Jan 2021</i>
+                        </span>
+                        <ul>
+                            <li>
+                                <p>資料建檔、學員資料輸入</p>
+                            </li>
+                            <li>
+                                <p>教室空間維護、櫃檯交接事項、客戶接待</p>
+                            </li>
+                            <li>
+                                <p>考場服務及環境維護</p>
+                            </li>
+                            <li>
+                                <p>修改報考流程將每位學員考試時間減少5分鐘</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>賣場服務人員</h3>
+                        <span class="company"><i class="far fa-building"></i><a href="nitori.com.tw">宜得利家居</a></span>
+                        <span class="duration">
+                            <i class="far fa-calendar-minus"> Taiwan,Taipei___Sep 2019 - Mar 2020</i>
+                        </span>
+                        <ul>
+                            <li>
+                                <p>上貨、補貨</p>
+                            </li>
+                            <li>
+                                <p>客戶接待及簡單行政庶務</p>
+                            </li>
+                            <li>
+                                <p>協助調整貨架擺設當月業績提高 20,000+元</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+            </section>
+
+            <section class="autobiography-section">
+                <h2 class="autobiography">自傳</h2>
+                <p>
+                    還記得高中快畢業時第一次看到班上同學打幾行
+                    code整個網頁就就變得很好看，當時心想：「哇！打出幾行字就能隨心所欲地把整個網頁變成自己想要的樣子！」，當時對能做出這樣的事情非常印象深刻，直到大一快結束時因緣際會下又跟高中同學聯絡上，才下定決心馬台電腦開始自學，剛開始根本不知道從哪開始學，他拿了一張前後端的學習地圖給我看，看到密密麻麻的英文我還是有看沒有懂；後來開始用關鍵字查才搞懂前後端是甚麼，就馬上去六角學院買了一堂
+                    HTML、 CSS的課程，學完之後就開始自己模仿一些知名的大型網站做一些網頁，如： Yahoo新聞、 Google新聞等；無聊就推 Box Model
+                    或是做一些三欄式的網站，心裡只覺得蠻好玩的，但也僅此而已，在大學期間也體驗了許多不同的工作，學網頁這件事也開始斷斷續續，之後聽朋友說寫網頁薪水還算不錯，自己也覺得不討厭才開始存錢去上類似訓練營的課程，評估後是選擇
+                    Alpha Camp，因為覺得他們不像是六角學院或是 Udemy那種線上平台只能單堂選，而且對於時間掌控不佳的人我認為跟著班級進度制是一個不錯的選擇，價格便宜也是我選擇的理由。
+                    開始上課之後才知道原來網頁不是自己想的那麼簡單，在上這堂課之前我連 Javascript是甚麼都不知道，更何況是 Vue或
+                    React這些框架，更深的甚至是演算法這些對於一個剛轉完系的人完全是另一個未知的世界，現在的我重新打底基礎並仍以學習網頁前後端技術為目標，希望以後能往工程領域發展。
+                </p>
+                <p>
+                    最近的工作接觸到小孩讓我對於K12的程式教育很感興趣，我在補習班任教及六七年前家裡是開補習班的觀察，我發現現在家長對於孩子的教育越來越重視，各種才藝課：舞蹈、繪畫、烹飪等各式各樣的課程家長相比以前更願意為小孩花錢投資小孩去上課，尤其現在新課綱開始重視程式設計等課程，學校增加程式教育在學校中的重要性，且根據
+                    104 人力銀行 2021年 12 月的調查統計，軟體工程師類職群超過 27,000 個職缺，卻僅有 7,600
+                    多位求職者，職缺數是求職人數的三倍多，明顯供不應求，我相信未來不僅僅是工程師，會有更多職位需要了解程式設計；在任教期間我發現學童最大的問題其實不是理解能力或是認知缺陷等問題，而是如何讓學童保持專注度去學習，我認為只要設計類似遊戲破關的方法，每15分鐘設計一個小遊戲加上其他附加條件就能保持學童專注度，我相信貴公司在做程式教育這一塊，在未來肯定會涉及到
+                    K12程式教育這一塊，希望我的想法能幫助到貴公司，也感謝撥沉讓我參與面試。
+                </p>
+            </section>
+        </div>
+    </body>
+</body>
+
+</html>
