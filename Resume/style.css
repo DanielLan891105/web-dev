@@ -1,0 +1,132 @@
+html,
+body {
+    font-family: "Lato", "Noto Sans TC", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #f6f7f8;
+}
+
+header {
+    height: 60px;
+    color: #666;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+nav {
+    max-width: 820px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #666;
+}
+
+main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 24px 0 8px;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+
+section {
+    margin-bottom: 48px;
+}
+
+p {
+    color: #666;
+}
+
+.avatar {
+    text-align: center;
+}
+
+img {
+    border-radius: 30%;
+}
+
+.name {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media-link {
+    color: gray;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media-link:hover {
+    color: lightgreen;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: blue;
+}
+
+.description {
+    text-align: center;
+}
+.padding-move-50px{
+    padding: 50px;
+}
+hr {
+    border: 0px;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.company, a {
+    color: blue ;
+}
+.company:hover {
+    color: lightgreen;
+}
+a:hover {
+    color: lightgreen;
+}
+.duration {
+    color: #666;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.fa-building,
+.fa-calendar-minus {
+    margin-right: 5px;
+}
+
+p{
+    text-indent: 2em;
+}
